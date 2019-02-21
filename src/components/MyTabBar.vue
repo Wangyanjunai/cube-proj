@@ -1,12 +1,10 @@
 <template>
-  <div class="tabbar">
     <cube-tab-bar
       v-model="selectedLabelDefault"
       :data="tabs"
       @click="clickHandler"
       @change="changeHandler">
     </cube-tab-bar>
-  </div>
 </template>
 
 <script type="text/ecmascript-6">
@@ -42,11 +40,4 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-.tabbar {
-  display: flex;
-  flex-direction: row;
-  position: fixed;
-  bottom: 0;
-  flex: 1;
-}
 </style>
