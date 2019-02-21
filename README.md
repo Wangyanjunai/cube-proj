@@ -1,21 +1,2 @@
-# cubeuipro
-
-> cube ui use
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# cube-proj
+cube-ui 是基于 Vue.js 实现的精致移动端组件库，这个只是为了演示组件库的一个测试项目。
