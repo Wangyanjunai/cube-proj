@@ -7,11 +7,10 @@ import MyTabBar from '@/components/MyTabBar'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: '/',
-      name: 'cubeDialog',
-      component: CubeDialog
+      name: 'myTabBar',
+      component: MyTabBar
     }
   ]
 })

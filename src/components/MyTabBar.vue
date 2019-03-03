@@ -11,7 +11,7 @@
   export default {
     data () {
       return {
-        selectedLabelDefault: 'Vip',
+        selectedLabelDefault: '首页',
         tabs: [{
           label: '书架',
           icon: 'cubeic-like'
@@ -30,7 +30,6 @@
   methods: {
     clickHandler (label) {
       // if you clicked home tab, then print 'Home'
-      console.log(label)
     },
     changeHandler (label) {
       // if you clicked different tab, this methods can be emitted
