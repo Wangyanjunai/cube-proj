@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 first branch demo
+=======
+new feature added
+>>>>>>> feature_x
